@@ -1,0 +1,54 @@
+.widgetContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid black;
+}
+div h4{ 
+    margin: 20% 4% 4% 4%;
+    color: rgb(104,104,104);
+}
+widgetContainer > br{
+    border: 2px solid;
+    
+}
+.widgetContainer form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.widgetContainer form input{
+    width: 90%;
+    height: 25px;
+}
+.widgetContainer > label, span{
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 20pt;
+}
+.MuiFormControlLabel-root{
+    margin: 0px;
+} 
+.switch{
+    margin-bottom: 20px;
+} 
+.switchCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(104,104,104)
+}
+.widgetContainer form button{
+    border: none;
+    width: 90%;
+    margin-top: 10%;
+    padding: 4% 0%;
+    background-color: rgb(254,254,254);
+    filter: drop-shadow(0 0 2px rgba(0,0,0,0.5))
+}
+
+.widgetContainer form button:hover{
+    background-color: rgb(153, 153, 153);
+   
+}

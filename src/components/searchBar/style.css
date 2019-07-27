@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-right: 2%;
+    width: 33%;
+}
+form input{
+    height: 33%;
+    justify-self: center;
+    font-size: 8pt;
+    color: gray;
+    width: 100%;
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}

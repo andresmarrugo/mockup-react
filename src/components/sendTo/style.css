@@ -1,0 +1,84 @@
+.generalContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+.containerButton{
+    display: flex;
+    margin: 1%;
+    width: 10%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 9vh;
+    border-radius: 60%;
+    background-color: rgb(238, 141, 56);
+}
+.button:hover{
+    background-color: rgb(107, 63, 24);
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+        "date location img price";
+    grid-template-columns: 1fr 2fr 2fr 1fr; 
+    width: 95%;
+    height: 80%;
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(104,104,104);
+    border-radius: 20px;
+    filter: drop-shadow(0 0 5px rgba(68, 68, 68, 0.493))
+}
+.date{
+    grid-area: date;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px dotted rgba(65, 65, 65,0.5);
+}
+.date span{
+    font-size: 12pt;
+
+}
+.location{
+    grid-area: location;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1px dotted rgba(65, 65, 65,0.5);
+}
+.location span{
+    font-size: 12pt;
+}
+.imagen{
+    grid-area: img;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px dotted rgba(65, 65, 65,0.5);
+}
+.imagen span{
+    font-size: 40pt;
+}
+.price{
+    grid-area: price;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.price span{
+    font-size: 20pt;
+}
