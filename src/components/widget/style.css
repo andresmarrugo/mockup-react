@@ -7,10 +7,14 @@
 div h4{ 
     margin: 20% 4% 4% 4%;
     color: rgb(104,104,104);
+    text-align: center;
 }
 widgetContainer > br{
     border: 2px solid;
     
+}
+.MuiSwitch-track{
+    background-color: blue;
 }
 .widgetContainer form{
     display: flex;
@@ -51,4 +55,26 @@ widgetContainer > br{
 .widgetContainer form button:hover{
     background-color: rgb(153, 153, 153);
    
+}
+
+@media(max-width: 600px){
+    .switchCont{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: rgb(104,104,104)
+    }
+    div h4{ 
+        margin: 2% 4% 4% 4%;
+        color: rgb(104,104,104);
+    }
+
+    .widgetContainer form button{
+        border: none;
+        width: 90%;
+        margin-top: 5%;
+        padding: 4% 0%;
+        background-color: rgb(254,254,254);
+        filter: drop-shadow(0 0 2px rgba(0,0,0,0.5))
+    }
 }

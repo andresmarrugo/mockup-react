@@ -41,3 +41,24 @@ body{
 .contentArea{
   grid-area: maincontent;
 }
+
+@media(max-width: 600px){
+  .mainContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: 
+      "header"
+      "maincontent"
+      "aside";
+    height: 100vh;
+  }
+
+  .header{
+    grid-template-rows: 6fr 6fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+    "logo navbar"
+    "searchbar searchbar";
+  }
+}
